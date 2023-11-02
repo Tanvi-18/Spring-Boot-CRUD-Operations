@@ -30,4 +30,32 @@ This project provides basic CRUD operations for a `User` entity. You can use thi
 
 Make requests to these endpoints using your preferred API client or tools like cURL, Postman, or even a web browser.
 
+## Testing with Postman
+
+You can use [Postman](https://www.postman.com/) to test the API endpoints easily. We've provided a Postman collection with pre-configured requests for all CRUD operations (Create, Read, Update, Delete). Follow these steps to get started:
+
+1. Download and install Postman if you haven't already.
+
+2. Import the provided Postman collection by clicking the button below:
+
+   [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/collection_id)
+
+   - Clicking this button will open Postman, and you can import the collection into your Postman workspace.
+
+3. Open the imported collection in Postman. You will find requests organized under each CRUD operation:
+
+   - **Create User**: Use this request to create a new user.
+   - **Get All Users**: Use this request to get a list of all users.
+   - **Get User by ID**: Use this request to retrieve a user by their ID.
+   - **Update User by ID**: Use this request to update an existing user by their ID.
+   - **Delete User by ID**: Use this request to delete a user by their ID.
+
+4. Modify the request parameters as needed. For example, you can update the JSON data for creating or updating a user, or change the URL parameter for getting or deleting a specific user.
+
+5. Send the requests to test the API.
+
+Use the Postman collection to interact with the API and verify its functionality.
+
 Feel free to customize this project according to your requirements, and happy coding!
+
+
